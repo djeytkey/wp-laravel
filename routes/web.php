@@ -23,10 +23,6 @@ Route::middleware(['auth:sanctum','auth'])->group(function () {
         return view('layouts.admin');
     });
 
-    Route::get('/test', function () {
-        return view('test');
-    });
-
 });
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
